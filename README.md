@@ -11,7 +11,11 @@ Plaats hierna het bestand libclib_jiio.so in de directory /data/apps/dcm4chee/dc
 # PostgreSQL config
 
  export PGUSER=postgres
+ 
  createdb pacsdb
+ 
  psql pacsdb -f dcm4chee-psql-2.13.6/sql/create.psql
+
+# Overig
 
 export JBOSS_HOME=/data/apps/dcm4chee/jboss-4.2.3.GA
